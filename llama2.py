@@ -2,7 +2,7 @@ import boto3
 import json
 
 prompt_data="""
-Act as a domain expert and write a poem on Colgate Toothpaste
+Act as a domain expert and write a poem on Colgate Toothpaste whitening paste... Please add nothing fancy
 """
 
 bedrock=boto3.client(service_name="bedrock-runtime")
